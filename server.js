@@ -186,7 +186,7 @@ app.use((err,req,res,next) => {
 
 const port = process.env.PORT || 3000;
 
-//Server listens for requests on port 3000
+//Server listens for requests on port 
 //Print statement in terminal to indicate server is listening 
 app.listen(port,() => {
     console.log(`Serving on port ${port}`);
